@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Digital Assesment</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Registration</h1>
+    </header>
+    <main>
+        <form action="login.html">
+            <label for="name">Name</label>
+            <input type="name" id="name" name="name" autocomplete="off" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="off" required>
+            <label for="password">Password</label>
+            <input type="password" id="pwd" name="password" required>
+            <input type="submit" value="Submit" onclick="addData()">
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </main>
+    <footer>
+        &copy; 2023 Digital Assesment
+    </footer>
+    <script src="registration.js"></script>
+</body>
+</html>
